@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Linear Plot</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<script src="chart.js"></script>
+<div id="wrapper" style="margin-left: 50px"></div>
+<script>
+    document.getElementById("tempLow").onclick=async ()=>{
+        console.log("ad")
+    };
+</script>
+<button type="button" id="tempHigh" name="button" style="border-radius: 5px; background: orange;  height: 20px; width: 100px; font-size: 10px;">Temperature High</button>
+<button type="button" id="tempLow" name="button" style="border-radius: 5px; background: orange;  height: 20px; width: 100px; font-size: 10px;">Temperature Low</button>
+<button type="button" id="tempMin" name="button" style="border-radius: 5px; background: orange;  height: 20px; width: 100px; font-size: 10px;">Temperature Min</button>
+<button type="button" id="tempMax" name="button" style="border-radius: 5px; background: orange;  height: 20px; width: 100px; font-size: 10px;">Temperature Max</button>
+</body>
+</html>
